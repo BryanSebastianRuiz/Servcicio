@@ -1,0 +1,9 @@
+📘 GUÍA RÁPIDA PARA WIRESHARK
+
+1. Abre Wireshark y carga el archivo `.pcap`.
+2. Usa filtros para reducir ruido. Ejemplos:
+   - http
+   - tcp.port == 80
+   - ip.addr == 192.168.1.10
+3. Haz clic derecho sobre un paquete y selecciona “Follow TCP Stream” para ver el contenido completo.
+4. Inspecciona los headers HTTP o el contenido de cada petición.
